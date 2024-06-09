@@ -48,11 +48,14 @@ const Booking = ({ tour, avgRating }) => {
                 <input type="text" placeholder="Ism Familya" id="fullName" required onChange={handleChange} />
             </FormGroup>
             <FormGroup>
-                <input type="number" placeholder="Telefon nomer" id="phone" required onChange={handleChange} />
+                <input type="number" placeholder="Telefon nomer" id="phone" min={0} required onChange={handleChange} />
             </FormGroup>
             <FormGroup className="d-flex align-items-center gap-3">
                 <input type="date" placeholder="" id="bookAt" required onChange={handleChange} />
-                <input type="number" placeholder="Soni" id="guestSize" required onChange={handleChange} />  
+                <input type="number" placeholder="Soni" id="guestSize" min={0} required onChange={handleChange} />  
+            </FormGroup>
+            <FormGroup>
+                <input type="number" placeholder="Necha kunga ?" id="phone" min={0} required onChange={handleChange} />
             </FormGroup>
         </Form>
       </div>
