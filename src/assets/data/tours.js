@@ -164,6 +164,25 @@ const tours = [
     photo: tourImg08,
     featured: false,
   },
+  {
+    id: "08",
+    title: "Shohi Zinda memorial ansambli",
+    city: "Uzbekistan",
+    distance: 500,
+    address: "Samarqand",
+    price: 99,
+    maxGroupSize: 8,
+    desc: "this is the description",
+    reviews: [
+      {
+        name: "Abduqodir",
+        rating: 4.6,
+      },
+    ],
+    avgRating: 4.5,
+    photo: tourImg08,
+    featured: false,
+  },
 ];
 
 export default tours;

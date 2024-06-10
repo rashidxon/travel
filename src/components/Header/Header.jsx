@@ -3,7 +3,7 @@ import "./Header.css";
 import { Container, Row, Col, Button } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
 
-import logo from "../../assets/images/logo.png";
+import logo2 from "../../assets/images/logo2.jpg";
 
 const nav__link = [
   {
@@ -49,7 +49,7 @@ const Header = () => {
           <div className="nav__wrapper d-flex align-item-center justify-content-between">
             <Link to={"/home"}>
               <div className="logo">
-                <img src={logo} alt="" />
+                <img src={logo2} alt="" />
               </div>
             </Link>
             
